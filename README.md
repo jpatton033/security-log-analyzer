@@ -35,6 +35,12 @@ Organizations generate massive volumes of logs that are often reviewed manually 
 - Secure API end-points with authentication
 - Designed with least privelege principles
 
+## How to Run
+1. Clone the repository
+2. Install dependencies
+3. Run the analysis engine
+4. Access the API for results
+
 ## Sample output
 
 ```json
@@ -42,5 +48,4 @@ Organizations generate massive volumes of logs that are often reviewed manually 
   "ip": 192.168.1.10,
   "failed attempts": 32,
   "risk_level": "high"
- }
-
+}
