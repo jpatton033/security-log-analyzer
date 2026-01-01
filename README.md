@@ -15,3 +15,32 @@ Organizations generate massive volumes of logs that are often reviewed manually 
 - Generates structured reports (CSV/JSON)
 - REST API for querying flagged events.
 
+## Tech Stack
+- Python
+- FastAPI
+- pandas
+- Regex
+- Docker
+- AWS S3 (optional for cloud deployment)
+
+## Architecture
+- Log ingestion layer
+- Analysis engine
+- API layer for reporting
+- Optional cloud storage integration
+
+## Security Considerations
+- Input validation on all log ingestion.
+- Read-only access for log sources.
+- Secure API end-points with authentication
+- Designed with least privelege principles
+
+## Sample output
+
+```json
+{
+  "ip": 192.168.1.10,
+  "failed attempts": 32,
+  "risk_level": "high"
+ }
+
