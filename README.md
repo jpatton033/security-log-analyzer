@@ -49,3 +49,7 @@ Organizations generate massive volumes of logs that are often reviewed manually 
   "failed attempts": 32,
   "risk_level": "high"
 }
+
+
+Author
+JamesP
